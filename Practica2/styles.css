@@ -143,10 +143,15 @@ body {
         padding: 20px 0;
         text-align: center;
         margin-top: auto;
+        color: #fbd5e5;
     } 
 html, body{
     height: 100%;
 }
 .footer p{
     margin: 0;
+}
+
+.container{
+    min-height: calc(100vh - 100px);
 }
