@@ -1,0 +1,21 @@
+.navbar-brand{
+    color: #eb9ac0;
+}
+.navbar-brand, .nav-link {
+    font-weight: bold;
+    white-space: nowrap;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: #eb9ac0 !important;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Sawarabi Mincho', serif;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive; 
+}
