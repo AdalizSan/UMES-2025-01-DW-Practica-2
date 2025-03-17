@@ -40,6 +40,52 @@ h1{
     color: white; 
 }
 
+.ingredients, .steps {
+    margin-top: 20px;
+}
+.ingredient-item, .step-item {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.fixed-left {
+    position: fixed;
+    top: 100px;
+    left: 5px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.steps-container {
+    margin-left: 350px;
+    padding-top: 50px;
+}
+
+.recipe-container {
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .fixed-left {
+        position: static;
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 15px;
+
+    }
+    .steps-container {
+        margin-left: 5px;
+    }
+}
 
 body {
     padding-top: 3rem;
