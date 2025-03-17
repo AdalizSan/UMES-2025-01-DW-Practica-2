@@ -19,3 +19,59 @@ h1, h2, h3 {
 .navbar-brand {
     font-family: 'Pacifico', cursive; 
 }
+
+h2, h1{
+    color: #801d56 !important;
+}
+
+.space-between-header-cards {
+    margin-top: 100px;
+}
+.btn-color {
+    background-color: #fbd5e5; 
+}
+
+.btn-color:hover {
+    background-color: #801d56;
+    color: white; /* Un tono más oscuro al pasar el ratón */
+}
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(var(--bs-tertiary-color-rgb));
+    }
+    .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    }
+  /* rtl:begin:ignore */
+    .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    }
+  /* rtl:end:ignore */
+    
+    
+    /* Featurettes
+  ------------------------- */
+    
+    .featurette-divider {
+    margin: 5rem 0; 
+    }
+    .featurette-heading {
+    letter-spacing: -.05rem;
+    }
+
+    
+    @media (min-width: 40em) {
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+    } 
+    
+    @media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+    }
