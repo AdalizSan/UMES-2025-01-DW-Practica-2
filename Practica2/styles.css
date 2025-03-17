@@ -51,7 +51,20 @@ h1{
     max-width: 100%;
     height: auto;
 }
-
+.review-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.review-content {
+    font-style: italic;
+    color: #555;
+}
+.review-card {
+    margin-bottom: 20px;
+}
+.star-rating {
+    color: #FFD700;
+}
 .fixed-left {
     position: fixed;
     top: 100px;
@@ -121,3 +134,19 @@ body {
         margin-top: 7rem;
     }
     }
+
+    footer{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        background-color: #343a40;
+        padding: 20px 0;
+        text-align: center;
+        margin-top: auto;
+    } 
+html, body{
+    height: 100%;
+}
+.footer p{
+    margin: 0;
+}
